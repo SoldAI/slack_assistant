@@ -16,4 +16,4 @@ Rename the file env.example to .env and change the key to your bot's key and sla
     SLACK_TOKEN =
 
 Start the node server using:
-```node soldai_slack_bot.js```
+```node slack_bot.js```
