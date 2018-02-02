@@ -1,0 +1,17 @@
+{"name": "slack-assistant",
+ "version": "0.0.1",
+ "description": "Program to run webhook for bot in Slack",
+ "url": "https://github.com/SoldAI/slack_assistant", 
+ "email": "mcampos@soldai.com",
+ "license": "MIT",
+ "bin": { "hermes-slack" : "./hermes.js" },
+ "dependencies": {
+	"botkit" : ">=0.6.0",
+	"dotenv": ">=4.0.0",
+	"express": "^4.14.0",
+	"html-entities": "^1.2.0",
+        "http": "^0.0.0",
+    	"striptags": "^1.0.0"
+
+  }
+}
